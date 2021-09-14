@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>浮动框架应用</title>
+    <style type="text/css">
+      body {
+        text-align: center;
+      }
+      iframe {
+        width: 350px;
+        height: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>浮动框架中打开新页面</h3>
+    <iframe
+      name="leftframe"
+      src="http://www.bing.com.cn"
+      width="300"
+      height="300"
+    ></iframe>
+    &nbsp;&nbsp;
+    <iframe
+      name="rightframe"
+      src="http://www.sina.com"
+      width="300"
+      height="300"
+    ></iframe>
+    <p>
+      <a href="https://www.baidu.com" target="leftframe"
+        >在左边浮动框架中打开百度</a
+      >
+      <a href="http://www.qq.com" target="rightframe"
+        >在右边浮动框架中打开百度</a
+      >
+    </p>
+  </body>
+</html>
