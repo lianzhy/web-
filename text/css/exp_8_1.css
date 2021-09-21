@@ -1,0 +1,17 @@
+#d1 {
+  width: 400;
+  height: 600;
+  background-color: bisque;
+}
+#d2 {
+  font-size: 20px;
+}
+.a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.it {
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+}
